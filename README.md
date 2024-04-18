@@ -94,7 +94,7 @@ A logfile could look like:
 Some other sample output                # this line will be ignored
 ```
 
-Start the tool by executing the following command (assume that you are in `Project_Root/01/Exercise_01` in the above file structure):
+Start the tool by executing the following command (assume that you are in `Project_Root/01/Exercise_1` in the above file structure):
 
 `python3 ../../tool/summarize.py --title sample-benchmark --input ./logs --output ./results/benchmark_out`
 
