@@ -22,7 +22,7 @@ def read_logfile(file: PathLike) -> Dict[str, List[Tuple[int, float]]]:
     the measured runtime, ordered by the number of threads.
     """
 
-    results: dict[str, List[Tuple[int, float]]] = {}
+    results: Dict[str, List[Tuple[int, float]]] = {}
 
     with open(file, "r") as f:
         lines = f.readlines()
