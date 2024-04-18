@@ -1,4 +1,4 @@
-# Benchmark Summarization Tool
+# Benchmark Summary Tool
 
 The **Benchmark Summarization Tool** can be used to automatically generate a markdown table and a line plot to display the results of a runtime benchmark for binaries executed with a different number of threads.
 
@@ -6,7 +6,7 @@ The **Benchmark Summarization Tool** can be used to automatically generate a mar
 
 Copy the tool into any directory on your machine. It seems reasonable to include it within the root directory of your project. A sample file structure is given further down in the section *Tool usage*.
 
-To run the tool a function Python 3 installation is required. Install dependencies specified in [requirements.txt](requirements.txt) either by executing the provided setup script ([setup.sh](setup.sh)) or by manually running `python3 -m pip install -r requirements.txt`.
+To run the tool a functional Python 3 installation is required. Install dependencies specified in [requirements.txt](requirements.txt) either by executing the provided setup script ([setup.sh](setup.sh)) or by manually running `python3 -m pip install -r requirements.txt`.
 
 *NOTE:* The provided setup script creates a virtual environment before installing Python dependencies. Ensure to have this virtual environment active before executing the tool by running `source ./venv/bin/activate`.
 
