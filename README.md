@@ -1,6 +1,6 @@
 # Benchmark Summary Tool
 
-The **Benchmark Summarization Tool** can be used to automatically generate a markdown table and a line plot to display the results of a runtime benchmark for binaries executed with a different number of threads.
+The **Benchmark Summary Tool** can be used to automatically generate a markdown table and a line plot to display the results of a runtime benchmark for binaries executed with a different number of threads.
 
 ## Tool setup
 
