@@ -26,29 +26,29 @@ If the binary to benchmark is written in C, the following code structure could b
 #include <omp.h>
 
 int main() {
-    // Setup, etc.
-    // ...
+    	// Setup, etc.
+	// ...
 
-    // Set number of OpenMP threads
+    	// Set number of OpenMP threads
 	omp_set_num_threads(num_threads);
 
-    // Prepare timing measurement
+    	// Prepare timing measurement
 	double start_time, end_time, elapsed_time;
 
-    // ...
+    	// ...
 
-    // Start timing measurement
-    start_time = omp_get_wtime();
+    	// Start timing measurement
+    	start_time = omp_get_wtime();
 
-    // Functionality to benchmark
-    // ...
+    	// Functionality to benchmark
+    	// ...
 
-    // Stop timing measurement
-    stop_time = omp_get_wtime();
-    elapsed_time = stop_time - start_time;
+    	// Stop timing measurement
+    	stop_time = omp_get_wtime();
+    	elapsed_time = stop_time - start_time;
 
-    // Generate benchmark result output
-    printf("#Benchmark | %s | %u | %.3f\n", argv[0], num_threads, elapsed_time);
+    	// Generate benchmark result output
+    	printf("#Benchmark | %s | %u | %.3f\n", argv[0], num_threads, elapsed_time);
 }
 
 ```
