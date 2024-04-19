@@ -4,7 +4,9 @@ The **Benchmark Summary Tool** can be used to automatically generate a markdown 
 
 ## Tool setup
 
-Copy the tool into any directory on your machine. It seems reasonable to include it within the root directory of your project. A sample file structure is given further down in the section *Tool usage*.
+Copy the tool into any directory on your machine. It seems reasonable to include it within the root directory of your project. A sample file structure is given further down in the section *Tool usage*. The most efficient way to include the whole tool is by running:
+
+`git submodule add -f https://github.com/EmmArrGee/UIBK-ParProg-BenchmarkSummaryTool.git tool`
 
 To run the tool a functional Python 3 installation is required. Install dependencies specified in [requirements.txt](requirements.txt) either by executing the provided setup script ([setup.sh](setup.sh)) or by manually running `python3 -m pip install -r requirements.txt`.
 
